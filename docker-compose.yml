@@ -1,0 +1,8 @@
+version: "3"
+services:
+  snackshack:
+    build: .
+    image: snackshack:latest
+    container_name: snackshack
+    ports:
+      - "8080:8080"
